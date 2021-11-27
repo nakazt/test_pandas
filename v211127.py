@@ -2,7 +2,7 @@
 
 import sys
 
-# main
+# main2
 def main():
   print(sys.version)
 
