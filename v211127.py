@@ -9,8 +9,8 @@ def main():
   params = ', '.join(sys.argv)
   print(params)
 
-  # df = pd.read_csv('./data.csv', header=None)
-  df = pd.read_excel('./data.xlsx', header=None)
+  df = pd.read_csv('./data.csv', header=None)
+  # df = pd.read_excel('./data.xlsx', header=None)
 
   print(df)
   print(df[0][0])
